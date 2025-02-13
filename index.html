@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm Jose Marie Y. Abalos</h1>
+            <p class="subtitle">Web Developer & Designer</p>
+            <p class="hero-description">I create stunning, user-friendly websites that bring ideas to life.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm an enthusiastic aspiring web developer with a strong desire to learn and grow in the field of creating beautiful and functional websites. I have a passion for front-end development and a keen interest in design. My goal is to acquire the skills necessary to create user-friendly and visually appealing websites that leave a lasting impression.</p>
+                <img src="pics/me.png" alt="Profile Image" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>1</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-item">
+                    <h3>4+</h3>
+                    <p>Certficates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="projects/project-image01.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A classic arcade game where you control a paddle to bounce a ball and break bricks at the top of the screen.</p>
+                    <a href="https://github.com/Jm-Abalos/Breakout-Game" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="projects/project-image02.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Bridge Builder is a game where you form bridges to cross platforms by holding down your mouse button.</p>
+                    <a href="https://github.com/Jm-Abalos/Ninja-Game" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="projects/project-image03.png" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>A game where you click on spaceships as they pop up on the screen. Be precise one wrong click and it's game over!</p>
+                    <a href="https://github.com/Jm-Abalos/ClickyGame" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html-css"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level javascript"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level react"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level ui-ux"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Jose Marie is an incredible developer! He delivered my project on time and exceeded my expectations."</p>
+                    <h3>- Lester Cadiz</h3>
+                    <p class="role">CEO, Company XYZ</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Working with Jose Marie was a pleasure. His attention to detail is unmatched."</p>
+                    <h3>- Harvee Dayondon</h3>
+                    <p class="role">Founder, Startup ABC</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Jose Marie's designs are modern and user-friendly. Highly recommend him!"</p>
+                    <h3>- Efren Cimafranca</h3>
+                    <p class="role">Designer, Creative Studio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me a message!</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/josemarie.abalos.7"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/Jm-Abalos"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/jhay.3m/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jm-abalos-a49a7031b/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2025 Jose Marie Abalos. All rights reserved.</p>
+    </footer>
+</body>
+</html>
