@@ -238,6 +238,52 @@ a {
     background-color: #cc0000;
 }
 
+/* certificates Section */
+#certificates {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white for contrast */
+    border-radius: 5px;
+}
+
+#certificates h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    color: #ff0000;
+}
+
+.certificate-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the certificates */
+}
+
+.certificate {
+    flex: 1; /* Each certificate takes equal space */
+    margin: 0 10px; /* Add margin between certificates */
+    padding: 20px;
+    background-color: #333; /* Darker background for certificates */
+    border-radius: 5px;
+    text-align: center; /* Center text */
+}
+
+.certificate img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: round the corners of the images */
+}
+
+.certificate h3 {
+    font-size: 20px;
+    color: white; /* Adjusted to white for visibility */
+}
+
+.certificate p {
+    font-size: 16px;
+    color: #ccc; /* Lighter gray for description */
+}
+
 /* Skills Section */
 #skills {
     padding: 100px 0;
